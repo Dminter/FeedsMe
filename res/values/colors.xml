@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_color">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="rectangle_bg">#ffecebeb</color>
+    <color name="corner_box">#ffcccccc</color>
+    <color name="c_lv_line">#dddddd</color>
+    <color name="transparent">#00000000</color>
+    <color name="title_bg">#2CA7EA</color>
+    <color name="red">#FF0000</color>
+    <color name="night">#A7A6A6</color>
+    <color name="like">#F37936</color>
+    <color name="not_like">#51B5E6</color>
+    <color name="is_down">#F5B12E</color>
+        <color name="gray">#C3C1C1</color>
+    
+</resources>

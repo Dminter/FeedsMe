@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="150dip"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:padding="20dip"
+    android:paddingLeft="20dip" >
+
+    <TextView
+        android:id="@+id/exit_bar_tv01"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_weight="1.0"
+        android:background="@color/like"
+        android:gravity="center"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:text="反馈"
+        android:textColor="@color/white"
+        android:textSize="30dip"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dip" />
+
+    <TextView
+        android:id="@+id/exit_bar_tv02"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_weight="1.0"
+        android:background="@color/red"
+        android:gravity="center"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:text="退出"
+        android:textColor="@color/white"
+        android:textSize="30dip"
+        android:textStyle="bold" />
+
+</LinearLayout>

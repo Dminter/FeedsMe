@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_news_ll00"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:scrollbarSize="1.0dip"
+    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track" >
+
+    <include
+        android:id="@+id/view_news_lay"
+        layout="@layout/common_title" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:background="@android:color/darker_gray"
+        android:fadingEdge="@null"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/view_news_ll01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_news_vp01"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <include
+        android:id="@+id/view_news_lay1"
+        layout="@layout/send_to" />
+
+    <include
+        android:id="@+id/view_news_lay2"
+        layout="@layout/font_size" />
+
+    <include
+        android:id="@+id/view_news_lay3"
+        layout="@layout/tools_bar" />
+
+</LinearLayout>

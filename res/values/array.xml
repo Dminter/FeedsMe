@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="is_like_items">
+        <item>喜欢</item>
+    </string-array>
+    <string-array name="is_not_like_items">
+        <item>不喜欢</item>
+    </string-array>
+    <string-array name="feeds_items">
+        <!-- 喜欢 -->
+
+    </string-array>
+    <string-array name="news_items">
+
+        <!-- 新闻 -->
+        <item>腾讯-国内新闻#qq_1</item>
+        <item>网易头条#163_rss_newstop</item>
+        <item>网易社会#news_163</item>
+        <item>百度国内最新新闻#baidu_1</item>
+        <item>百度国际最新新闻#baidu_2</item>
+        <item>奶味网-国际#naivix_1</item>
+        <item>奶味网-国内#naivix_2</item>
+        <item>奶味网-社会#naivix_3</item>
+    </string-array>
+    <string-array name="fun_items">
+
+        <!-- 有趣 -->
+
+        <item>豆瓣评论#doubanRss_fun</item>
+        <item>煎蛋#jandan_fun</item>
+        <item>糗事百科#feedsky_fun</item>
+        <item>来福搞笑#laifu1_fun</item>
+        <item>来福图片#laifu2_fun</item>
+    </string-array>
+    <string-array name="it_items">
+
+        <!-- 科技 -->
+        <item>techweb#techweb</item>
+        <item>雷锋网#leiphone</item>
+        <item>cnBeta#rssdiy_it</item>
+        <item>科学松鼠会#songshuhui_it</item>
+        <item>善用佳软#xbeta_it</item>
+        <item>小众软件#appinn</item>
+        <item>分享网络2.0#feedsky_it</item>
+    </string-array>
+    <string-array name="sports_items">
+
+        <!-- sports -->
+
+        <item>奶味网-体育#naivix_sports</item>
+        <item>新浪体育#sina_sports</item>
+        <item>虎扑篮球#hoopchina_sports</item>
+    </string-array>
+    <string-array name="programme_items">
+
+        <!-- 编程 -->
+        <item>开源中国资讯#oschina1_programme</item>  
+    </string-array>
+
+</resources>

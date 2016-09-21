@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_about">FeedsMe是一款简明实用的资讯聚合应用,基于RSS订阅模式,定制各类新闻,报纸,杂志等内容,也可根据自己的喜好定制个性化内容.
+        \n友情提示:[方块颜色]黄色:已缓存 橘红:喜欢 天蓝:不喜欢</string>
+    <string name="app_name">FeedsMe</string>
+
+</resources>

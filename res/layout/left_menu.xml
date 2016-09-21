@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.zncm.feedsme.view.SlidingMenuView
+        android:id="@+id/sliding_menu_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/left_sliding_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/left_menu_iv01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_hide"
+                android:onClick="hideMenu" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dip" />
+
+            <ImageView
+                android:id="@+id/left_menu_iv02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_download" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dip" />
+
+            <ImageView
+                android:id="@+id/left_menu_iv03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_clear" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dip" />
+
+            <ImageView
+                android:id="@+id/left_menu_iv04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_at" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dip" />
+
+            <TextView
+                android:id="@+id/left_menu_tv01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/title_bg"
+                android:text="喜欢"
+                android:textColor="@color/white"
+                android:textSize="15dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dip" />
+
+            <TextView
+                android:id="@+id/left_menu_tv02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/title_bg"
+                android:text="新闻"
+                android:textColor="@color/white"
+                android:textSize="15dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dip" />
+
+            <TextView
+                android:id="@+id/left_menu_tv03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/title_bg"
+                android:text="科技"
+                android:textColor="@color/white"
+                android:textSize="15dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dip" />
+
+            <TextView
+                android:id="@+id/left_menu_tv04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/title_bg"
+                android:text="有趣"
+                android:textColor="@color/white"
+                android:textSize="15dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dip" />
+
+            <TextView
+                android:id="@+id/left_menu_tv05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/title_bg"
+                android:text="编程"
+                android:textColor="@color/white"
+                android:textSize="15dip" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dip" />
+
+            <TextView
+                android:id="@+id/left_menu_tv06"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/title_bg"
+                android:text="体育"
+                android:textColor="@color/white"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/sliding_body"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </FrameLayout>
+    </com.zncm.feedsme.view.SlidingMenuView>
+
+</RelativeLayout>

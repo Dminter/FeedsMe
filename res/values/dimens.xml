@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- xml中使用的各种尺寸大小 -->
+    <dimen name="dip5">5.0dip</dimen>
+    <dimen name="dip10">10.0dip</dimen>
+    <dimen name="dip20">20.0dip</dimen>
+    <dimen name="dip25">25.0dip</dimen>
+    <dimen name="dip30">30.0dip</dimen>
+
+</resources>

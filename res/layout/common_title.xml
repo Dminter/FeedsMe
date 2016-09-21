@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/common_title_iv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-15.0dip"
+        android:src="@drawable/icon_return_normal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/common_title_tv00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/common_title_tv03"
+        android:layout_centerVertical="true"
+        android:padding="5dip"
+        android:scaleType="fitCenter"
+        android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/common_title_tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/common_title_tv03"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="45.0dip"
+        android:background="@color/title_bg"
+        android:maxLength="9"
+        android:padding="5dip"
+        android:scaleType="fitCenter"
+        android:text="ФFeedsMeΨ"
+        android:textSize="25dip" />
+
+    <TextView
+        android:id="@+id/common_title_tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_toRightOf="@+id/common_title_tv01"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/common_title_tv03"
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="@color/title_bg" />
+
+</RelativeLayout>
